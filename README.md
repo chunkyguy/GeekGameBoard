@@ -13,8 +13,8 @@ Some of the generally-useful Core Animation techniques illustrated are:
 * Loading images from files and setting them as layer contents
 * 3D "card-flip" animations
 
-![Screenshot iOS](screenshot_iOS.png)
-![Screenshot macOS](screenshot_macOS.png)
+![Screenshot](screenshot.png)
+
 
 ## History
 
