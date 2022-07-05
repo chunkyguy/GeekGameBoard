@@ -192,18 +192,18 @@
 			isa = PBXGroup;
 			children = (
 				79D042BE2874DC070095C588 /* AppDelegate.h */,
-				79D042BF2874DC070095C588 /* GameViewController.m */,
-				79D042C02874DC070095C588 /* Assets.xcassets */,
-				79D042C12874DC070095C588 /* ViewController.m */,
-				79D042C22874DC070095C588 /* SceneDelegate.m */,
-				79D042C32874DC070095C588 /* LaunchScreen.storyboard */,
-				79D042C52874DC070095C588 /* Main.storyboard */,
-				79D042C72874DC070095C588 /* main.m */,
 				79D042C82874DC070095C588 /* AppDelegate.m */,
+				79D042C02874DC070095C588 /* Assets.xcassets */,
 				79D042C92874DC070095C588 /* GameViewController.h */,
+				79D042BF2874DC070095C588 /* GameViewController.m */,
 				79D042CA2874DC070095C588 /* Info.plist */,
-				79D042CB2874DC070095C588 /* ViewController.h */,
+				79D042C32874DC070095C588 /* LaunchScreen.storyboard */,
+				79D042C72874DC070095C588 /* main.m */,
+				79D042C52874DC070095C588 /* Main.storyboard */,
 				79D042CC2874DC070095C588 /* SceneDelegate.h */,
+				79D042C22874DC070095C588 /* SceneDelegate.m */,
+				79D042CB2874DC070095C588 /* ViewController.h */,
+				79D042C12874DC070095C588 /* ViewController.m */,
 			);
 			path = GGB_iOS;
 			sourceTree = "<group>";

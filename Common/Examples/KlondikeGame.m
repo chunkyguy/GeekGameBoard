@@ -29,6 +29,9 @@
 
 #define kStackHeight 500
 
+@interface KlondikeGame()
+@property (copy) NSString *state;
+@end
 
 @implementation KlondikeGame
 
@@ -42,11 +45,18 @@
 - (id) init
 {
     self = [super init];
-    if (self != nil)
+    if (self != nil) {
+        _state = [@"" copy];
         [self setNumberOfPlayers: 1];
+    }
     return self;
 }
 
+- (void)dealloc
+{
+  [_state release];
+  [super dealloc];
+}
         
 - (void) setUpBoard
 {
@@ -191,15 +201,12 @@
 
 - (NSString*) stateString
 {
-  NSAssert1(NO,@"%@ forgot to implement -stateString",[self class]);
-  return nil;
+  return _state;
 }
 
 - (void) setStateString: (NSString*)stateString
 {
-  NSAssert1(NO,@"%@ forgot to implement -setStateString",[self class]);
+  self.state = stateString;
 }
-
-
 
 @end

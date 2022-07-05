@@ -51,7 +51,9 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
   UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"kCell"];
-  [[cell textLabel] setText:[_games objectAtIndex:[indexPath row]]];
+  NSString *game = [_games objectAtIndex:[indexPath row]];
+  NSString *title = [[game componentsSeparatedByString:@"Game"]firstObject];
+  [[cell textLabel] setText:title];
   return cell;
 }
 

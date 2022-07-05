@@ -1,7 +1,7 @@
 # GeekGameBoard
 
 **Originally by [Jens Alfke](http://mooseyard.lighthouseapp.com/projects/23201/home)**  
-**Git port by Cherif Yaya**
+**Git port by Cherif Yaya**  
 **Bug fixes by Sidharth Juyal**
 
 GeekGameBoard is an example of using Core Animation to present the user interface of a board or card game. It implements a small framework for implementing such games, with domain-specific classes like "Grid" and "Piece", and examples of several game definitions built on top of the framework.
@@ -12,6 +12,9 @@ Some of the generally-useful Core Animation techniques illustrated are:
 * Dragging CALayers with the mouse
 * Loading images from files and setting them as layer contents
 * 3D "card-flip" animations
+
+![Screenshot iOS](screenshot_iOS.png)
+![Screenshot macOS](screenshot_macOS.png)
 
 ## History
 

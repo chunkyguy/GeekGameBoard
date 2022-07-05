@@ -45,7 +45,7 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  [self setTitle:_gameName];
+  [self setTitle:@"Loading ..."];
 }
 
 - (void)viewDidLayoutSubviews {
@@ -61,6 +61,7 @@
 
   // Start game:
   [self startGameNamed: _gameName];
+  [self setTitle:[[[self.contentView game] class] displayName]];
 }
 
 - (void)layoutSubviews {
