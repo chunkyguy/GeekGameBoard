@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79D043D22874DCF30095C588 /* ball-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D0437E2874DCF30095C588 /* ball-black.png */; };
+		79D043D32874DCF30095C588 /* ball-cyan.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D0437F2874DCF30095C588 /* ball-cyan.png */; };
+		79D043D42874DCF30095C588 /* ball-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D043802874DCF30095C588 /* ball-orange.png */; };
+		79D043D52874DCF30095C588 /* ball-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D043812874DCF30095C588 /* ball-gray.png */; };
+		79D043D62874DCF30095C588 /* ball-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D043822874DCF30095C588 /* ball-green.png */; };
+		79D043D72874DCF30095C588 /* ball-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D043832874DCF30095C588 /* ball-red.png */; };
+		79D043D82874DCF30095C588 /* ball-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D043842874DCF30095C588 /* ball-white.png */; };
+		79D043D92874DCF30095C588 /* ball-purple.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D043852874DCF30095C588 /* ball-purple.png */; };
+		79D043DA2874DCF30095C588 /* Stone-white.psd in Resources */ = {isa = PBXBuildFile; fileRef = 79D043862874DCF30095C588 /* Stone-white.psd */; };
+		79D043DB2874DCF30095C588 /* Stone-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D043872874DCF30095C588 /* Stone-white.png */; };
+		79D043DC2874DCF30095C588 /* Classic Aqua Blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79D043882874DCF30095C588 /* Classic Aqua Blue.jpg */; };
+		79D043DD2874DCF30095C588 /* Green Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D043892874DCF30095C588 /* Green Ball.png */; };
+		79D043DE2874DCF30095C588 /* Wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79D0438A2874DCF30095C588 /* Wood.jpg */; };
+		79D043DF2874DCF30095C588 /* X.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 79D0438B2874DCF30095C588 /* X.tiff */; };
+		79D043E02874DCF30095C588 /* Red Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D0438C2874DCF30095C588 /* Red Ball.png */; };
+		79D043E12874DCF30095C588 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D0438D2874DCF30095C588 /* Background.png */; };
+		79D043E22874DCF30095C588 /* Stone-black.psd in Resources */ = {isa = PBXBuildFile; fileRef = 79D0438E2874DCF30095C588 /* Stone-black.psd */; };
+		79D043E32874DCF30095C588 /* Yellow Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D0438F2874DCF30095C588 /* Yellow Ball.png */; };
+		79D043E42874DCF30095C588 /* Stone-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D043902874DCF30095C588 /* Stone-black.png */; };
+		79D043E52874DCF30095C588 /* O.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 79D043912874DCF30095C588 /* O.tiff */; };
+		79D043E62874DCF30095C588 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D043932874DCF30095C588 /* Blue.png */; };
+		79D043E72874DCF30095C588 /* Violet.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D043942874DCF30095C588 /* Violet.png */; };
+		79D043E82874DCF30095C588 /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D043952874DCF30095C588 /* Green.png */; };
+		79D043E92874DCF30095C588 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D043962874DCF30095C588 /* Red.png */; };
+		79D043EA2874DCF30095C588 /* Gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D043972874DCF30095C588 /* Gold.png */; };
+		79D043EB2874DCF30095C588 /* White Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 79D043982874DCF30095C588 /* White Ball.png */; };
+		79D043EC2874DCF30095C588 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D0439A2874DCF30095C588 /* Game.m */; };
+		79D043ED2874DCF30095C588 /* GGBLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D0439C2874DCF30095C588 /* GGBLayer.m */; };
+		79D043EE2874DCF30095C588 /* Dispenser.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D0439D2874DCF30095C588 /* Dispenser.m */; };
+		79D043EF2874DCF30095C588 /* HexGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D0439F2874DCF30095C588 /* HexGrid.m */; };
+		79D043F02874DCF30095C588 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043A22874DCF30095C588 /* Stack.m */; };
+		79D043F12874DCF30095C588 /* QuartzUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043A42874DCF30095C588 /* QuartzUtils.m */; };
+		79D043F22874DCF30095C588 /* GGBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043A72874DCF30095C588 /* GGBUtils.m */; };
+		79D043F32874DCF30095C588 /* DiscPiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043AA2874DCF30095C588 /* DiscPiece.m */; };
+		79D043F42874DCF30095C588 /* GGBTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043AB2874DCF30095C588 /* GGBTextLayer.m */; };
+		79D043F52874DCF30095C588 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043AC2874DCF30095C588 /* PlayingCard.m */; };
+		79D043F62874DCF30095C588 /* Turn.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043AE2874DCF30095C588 /* Turn.m */; };
+		79D043F72874DCF30095C588 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043B02874DCF30095C588 /* Deck.m */; };
+		79D043F82874DCF30095C588 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043B52874DCF30095C588 /* Card.m */; };
+		79D043F92874DCF30095C588 /* BitHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043B72874DCF30095C588 /* BitHolder.m */; };
+		79D043FA2874DCF30095C588 /* Bit.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043B82874DCF30095C588 /* Bit.m */; };
+		79D043FC2874DCF30095C588 /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043BB2874DCF30095C588 /* Piece.m */; };
+		79D043FD2874DCF30095C588 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043BD2874DCF30095C588 /* Grid.m */; };
+		79D043FE2874DCF30095C588 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043C12874DCF30095C588 /* Player.m */; };
+		79D043FF2874DCF30095C588 /* KlondikeGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043C42874DCF30095C588 /* KlondikeGame.m */; };
+		79D044002874DCF30095C588 /* CheckersGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043C52874DCF30095C588 /* CheckersGame.m */; };
+		79D044012874DCF30095C588 /* TicTacToeGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043C72874DCF30095C588 /* TicTacToeGame.m */; };
+		79D044022874DCF30095C588 /* HexchequerGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043C92874DCF30095C588 /* HexchequerGame.m */; };
+		79D044032874DCF30095C588 /* GoGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D043CA2874DCF30095C588 /* GoGame.m */; };
+		79D044062874DEE80095C588 /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D044052874DEE80095C588 /* BoardView.m */; };
+		79D044072874DF250095C588 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D042AB2874DB220095C588 /* AppDelegate.m */; };
+		79D044082874DF290095C588 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D042AE2874DB220095C588 /* ViewController.m */; };
+		79D044092874DF2E0095C588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D042B02874DB240095C588 /* Assets.xcassets */; };
+		79D0440B2874DF360095C588 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D042B52874DB240095C588 /* main.m */; };
+		79D0440E2874DF8C0095C588 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 79D0440C2874DF8C0095C588 /* MainMenu.nib */; };
+		79D044112874DFD70095C588 /* DemoBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D0440F2874DFD70095C588 /* DemoBoardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79D042AA2874DB220095C588 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79D042AB2874DB220095C588 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79D042AD2874DB220095C588 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79D042AE2874DB220095C588 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79D042B02874DB240095C588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79D042B52874DB240095C588 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79D042B72874DB240095C588 /* GGB_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GGB_Mac.entitlements; sourceTree = "<group>"; };
+		79D0435E2874DC870095C588 /* GGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GGB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D0437E2874DCF30095C588 /* ball-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball-black.png"; sourceTree = "<group>"; };
+		79D0437F2874DCF30095C588 /* ball-cyan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball-cyan.png"; sourceTree = "<group>"; };
+		79D043802874DCF30095C588 /* ball-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball-orange.png"; sourceTree = "<group>"; };
+		79D043812874DCF30095C588 /* ball-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball-gray.png"; sourceTree = "<group>"; };
+		79D043822874DCF30095C588 /* ball-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball-green.png"; sourceTree = "<group>"; };
+		79D043832874DCF30095C588 /* ball-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball-red.png"; sourceTree = "<group>"; };
+		79D043842874DCF30095C588 /* ball-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball-white.png"; sourceTree = "<group>"; };
+		79D043852874DCF30095C588 /* ball-purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball-purple.png"; sourceTree = "<group>"; };
+		79D043862874DCF30095C588 /* Stone-white.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Stone-white.psd"; sourceTree = "<group>"; };
+		79D043872874DCF30095C588 /* Stone-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stone-white.png"; sourceTree = "<group>"; };
+		79D043882874DCF30095C588 /* Classic Aqua Blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Classic Aqua Blue.jpg"; sourceTree = "<group>"; };
+		79D043892874DCF30095C588 /* Green Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Ball.png"; sourceTree = "<group>"; };
+		79D0438A2874DCF30095C588 /* Wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wood.jpg; sourceTree = "<group>"; };
+		79D0438B2874DCF30095C588 /* X.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = X.tiff; sourceTree = "<group>"; };
+		79D0438C2874DCF30095C588 /* Red Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Red Ball.png"; sourceTree = "<group>"; };
+		79D0438D2874DCF30095C588 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		79D0438E2874DCF30095C588 /* Stone-black.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Stone-black.psd"; sourceTree = "<group>"; };
+		79D0438F2874DCF30095C588 /* Yellow Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Yellow Ball.png"; sourceTree = "<group>"; };
+		79D043902874DCF30095C588 /* Stone-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stone-black.png"; sourceTree = "<group>"; };
+		79D043912874DCF30095C588 /* O.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = O.tiff; sourceTree = "<group>"; };
+		79D043932874DCF30095C588 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		79D043942874DCF30095C588 /* Violet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Violet.png; sourceTree = "<group>"; };
+		79D043952874DCF30095C588 /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green.png; sourceTree = "<group>"; };
+		79D043962874DCF30095C588 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		79D043972874DCF30095C588 /* Gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gold.png; sourceTree = "<group>"; };
+		79D043982874DCF30095C588 /* White Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "White Ball.png"; sourceTree = "<group>"; };
+		79D0439A2874DCF30095C588 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		79D0439B2874DCF30095C588 /* GGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGB.h; sourceTree = "<group>"; };
+		79D0439C2874DCF30095C588 /* GGBLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGBLayer.m; sourceTree = "<group>"; };
+		79D0439D2874DCF30095C588 /* Dispenser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dispenser.m; sourceTree = "<group>"; };
+		79D0439E2874DCF30095C588 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		79D0439F2874DCF30095C588 /* HexGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexGrid.m; sourceTree = "<group>"; };
+		79D043A02874DCF30095C588 /* BitHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitHolder.h; sourceTree = "<group>"; };
+		79D043A12874DCF30095C588 /* Game+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Game+Protected.h"; sourceTree = "<group>"; };
+		79D043A22874DCF30095C588 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		79D043A32874DCF30095C588 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		79D043A42874DCF30095C588 /* QuartzUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzUtils.m; sourceTree = "<group>"; };
+		79D043A52874DCF30095C588 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
+		79D043A72874DCF30095C588 /* GGBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGBUtils.m; sourceTree = "<group>"; };
+		79D043A82874DCF30095C588 /* Bit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bit.h; sourceTree = "<group>"; };
+		79D043A92874DCF30095C588 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		79D043AA2874DCF30095C588 /* DiscPiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscPiece.m; sourceTree = "<group>"; };
+		79D043AB2874DCF30095C588 /* GGBTextLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGBTextLayer.m; sourceTree = "<group>"; };
+		79D043AC2874DCF30095C588 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		79D043AD2874DCF30095C588 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		79D043AE2874DCF30095C588 /* Turn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Turn.m; sourceTree = "<group>"; };
+		79D043AF2874DCF30095C588 /* HexGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexGrid.h; sourceTree = "<group>"; };
+		79D043B02874DCF30095C588 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		79D043B12874DCF30095C588 /* Dispenser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dispenser.h; sourceTree = "<group>"; };
+		79D043B22874DCF30095C588 /* GGBLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGBLayer.h; sourceTree = "<group>"; };
+		79D043B32874DCF30095C588 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		79D043B42874DCF30095C588 /* QuartzUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzUtils.h; sourceTree = "<group>"; };
+		79D043B52874DCF30095C588 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		79D043B62874DCF30095C588 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		79D043B72874DCF30095C588 /* BitHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitHolder.m; sourceTree = "<group>"; };
+		79D043B82874DCF30095C588 /* Bit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bit.m; sourceTree = "<group>"; };
+		79D043B92874DCF30095C588 /* GGBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGBUtils.h; sourceTree = "<group>"; };
+		79D043BB2874DCF30095C588 /* Piece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Piece.m; sourceTree = "<group>"; };
+		79D043BC2874DCF30095C588 /* Turn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Turn.h; sourceTree = "<group>"; };
+		79D043BD2874DCF30095C588 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
+		79D043BE2874DCF30095C588 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		79D043BF2874DCF30095C588 /* GGBTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGBTextLayer.h; sourceTree = "<group>"; };
+		79D043C02874DCF30095C588 /* DiscPiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscPiece.h; sourceTree = "<group>"; };
+		79D043C12874DCF30095C588 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		79D043C32874DCF30095C588 /* HexchequerGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexchequerGame.h; sourceTree = "<group>"; };
+		79D043C42874DCF30095C588 /* KlondikeGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KlondikeGame.m; sourceTree = "<group>"; };
+		79D043C52874DCF30095C588 /* CheckersGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckersGame.m; sourceTree = "<group>"; };
+		79D043C62874DCF30095C588 /* GoGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoGame.h; sourceTree = "<group>"; };
+		79D043C72874DCF30095C588 /* TicTacToeGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacToeGame.m; sourceTree = "<group>"; };
+		79D043C82874DCF30095C588 /* KlondikeGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KlondikeGame.h; sourceTree = "<group>"; };
+		79D043C92874DCF30095C588 /* HexchequerGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexchequerGame.m; sourceTree = "<group>"; };
+		79D043CA2874DCF30095C588 /* GoGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoGame.m; sourceTree = "<group>"; };
+		79D043CB2874DCF30095C588 /* CheckersGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckersGame.h; sourceTree = "<group>"; };
+		79D043CC2874DCF30095C588 /* TicTacToeGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToeGame.h; sourceTree = "<group>"; };
+		79D044042874DEE80095C588 /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardView.h; sourceTree = "<group>"; };
+		79D044052874DEE80095C588 /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
+		79D0440D2874DF8C0095C588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Base; path = Base.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		79D0440F2874DFD70095C588 /* DemoBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoBoardView.m; sourceTree = "<group>"; };
+		79D044102874DFD70095C588 /* DemoBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoBoardView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79D0435B2874DC870095C588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79D0429E2874DB220095C588 = {
+			isa = PBXGroup;
+			children = (
+				79D0437B2874DCF30095C588 /* Common */,
+				79D042A92874DB220095C588 /* GGB_Mac */,
+				79D042A82874DB220095C588 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79D042A82874DB220095C588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79D0435E2874DC870095C588 /* GGB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79D042A92874DB220095C588 /* GGB_Mac */ = {
+			isa = PBXGroup;
+			children = (
+				79D042AA2874DB220095C588 /* AppDelegate.h */,
+				79D042AB2874DB220095C588 /* AppDelegate.m */,
+				79D042AD2874DB220095C588 /* ViewController.h */,
+				79D042AE2874DB220095C588 /* ViewController.m */,
+				79D044102874DFD70095C588 /* DemoBoardView.h */,
+				79D0440F2874DFD70095C588 /* DemoBoardView.m */,
+				79D042B02874DB240095C588 /* Assets.xcassets */,
+				79D0440C2874DF8C0095C588 /* MainMenu.nib */,
+				79D042B52874DB240095C588 /* main.m */,
+				79D042B72874DB240095C588 /* GGB_Mac.entitlements */,
+			);
+			path = GGB_Mac;
+			sourceTree = "<group>";
+		};
+		79D0437B2874DCF30095C588 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				79D0437C2874DCF30095C588 /* Resources */,
+				79D043992874DCF30095C588 /* GGBKit */,
+				79D043C22874DCF30095C588 /* Examples */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		79D0437C2874DCF30095C588 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79D0437D2874DCF30095C588 /* Balls */,
+				79D043862874DCF30095C588 /* Stone-white.psd */,
+				79D043872874DCF30095C588 /* Stone-white.png */,
+				79D043882874DCF30095C588 /* Classic Aqua Blue.jpg */,
+				79D043892874DCF30095C588 /* Green Ball.png */,
+				79D0438A2874DCF30095C588 /* Wood.jpg */,
+				79D0438B2874DCF30095C588 /* X.tiff */,
+				79D0438C2874DCF30095C588 /* Red Ball.png */,
+				79D0438D2874DCF30095C588 /* Background.png */,
+				79D0438E2874DCF30095C588 /* Stone-black.psd */,
+				79D0438F2874DCF30095C588 /* Yellow Ball.png */,
+				79D043902874DCF30095C588 /* Stone-black.png */,
+				79D043912874DCF30095C588 /* O.tiff */,
+				79D043922874DCF30095C588 /* Gingko */,
+				79D043982874DCF30095C588 /* White Ball.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		79D0437D2874DCF30095C588 /* Balls */ = {
+			isa = PBXGroup;
+			children = (
+				79D0437E2874DCF30095C588 /* ball-black.png */,
+				79D0437F2874DCF30095C588 /* ball-cyan.png */,
+				79D043802874DCF30095C588 /* ball-orange.png */,
+				79D043812874DCF30095C588 /* ball-gray.png */,
+				79D043822874DCF30095C588 /* ball-green.png */,
+				79D043832874DCF30095C588 /* ball-red.png */,
+				79D043842874DCF30095C588 /* ball-white.png */,
+				79D043852874DCF30095C588 /* ball-purple.png */,
+			);
+			path = Balls;
+			sourceTree = "<group>";
+		};
+		79D043922874DCF30095C588 /* Gingko */ = {
+			isa = PBXGroup;
+			children = (
+				79D043932874DCF30095C588 /* Blue.png */,
+				79D043942874DCF30095C588 /* Violet.png */,
+				79D043952874DCF30095C588 /* Green.png */,
+				79D043962874DCF30095C588 /* Red.png */,
+				79D043972874DCF30095C588 /* Gold.png */,
+			);
+			path = Gingko;
+			sourceTree = "<group>";
+		};
+		79D043992874DCF30095C588 /* GGBKit */ = {
+			isa = PBXGroup;
+			children = (
+				79D0439B2874DCF30095C588 /* GGB.h */,
+				79D043A82874DCF30095C588 /* Bit.h */,
+				79D043B82874DCF30095C588 /* Bit.m */,
+				79D043A02874DCF30095C588 /* BitHolder.h */,
+				79D043B72874DCF30095C588 /* BitHolder.m */,
+				79D044042874DEE80095C588 /* BoardView.h */,
+				79D044052874DEE80095C588 /* BoardView.m */,
+				79D043A32874DCF30095C588 /* Card.h */,
+				79D043B52874DCF30095C588 /* Card.m */,
+				79D0439E2874DCF30095C588 /* Deck.h */,
+				79D043B02874DCF30095C588 /* Deck.m */,
+				79D043C02874DCF30095C588 /* DiscPiece.h */,
+				79D043AA2874DCF30095C588 /* DiscPiece.m */,
+				79D043B12874DCF30095C588 /* Dispenser.h */,
+				79D0439D2874DCF30095C588 /* Dispenser.m */,
+				79D043B32874DCF30095C588 /* Game.h */,
+				79D0439A2874DCF30095C588 /* Game.m */,
+				79D043A12874DCF30095C588 /* Game+Protected.h */,
+				79D043B22874DCF30095C588 /* GGBLayer.h */,
+				79D0439C2874DCF30095C588 /* GGBLayer.m */,
+				79D043BF2874DCF30095C588 /* GGBTextLayer.h */,
+				79D043AB2874DCF30095C588 /* GGBTextLayer.m */,
+				79D043B92874DCF30095C588 /* GGBUtils.h */,
+				79D043A72874DCF30095C588 /* GGBUtils.m */,
+				79D043AD2874DCF30095C588 /* Grid.h */,
+				79D043BD2874DCF30095C588 /* Grid.m */,
+				79D043AF2874DCF30095C588 /* HexGrid.h */,
+				79D0439F2874DCF30095C588 /* HexGrid.m */,
+				79D043A52874DCF30095C588 /* Piece.h */,
+				79D043BB2874DCF30095C588 /* Piece.m */,
+				79D043A92874DCF30095C588 /* Player.h */,
+				79D043C12874DCF30095C588 /* Player.m */,
+				79D043BE2874DCF30095C588 /* PlayingCard.h */,
+				79D043AC2874DCF30095C588 /* PlayingCard.m */,
+				79D043B42874DCF30095C588 /* QuartzUtils.h */,
+				79D043A42874DCF30095C588 /* QuartzUtils.m */,
+				79D043B62874DCF30095C588 /* Stack.h */,
+				79D043A22874DCF30095C588 /* Stack.m */,
+				79D043BC2874DCF30095C588 /* Turn.h */,
+				79D043AE2874DCF30095C588 /* Turn.m */,
+			);
+			path = GGBKit;
+			sourceTree = "<group>";
+		};
+		79D043C22874DCF30095C588 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				79D043C32874DCF30095C588 /* HexchequerGame.h */,
+				79D043C42874DCF30095C588 /* KlondikeGame.m */,
+				79D043C52874DCF30095C588 /* CheckersGame.m */,
+				79D043C62874DCF30095C588 /* GoGame.h */,
+				79D043C72874DCF30095C588 /* TicTacToeGame.m */,
+				79D043C82874DCF30095C588 /* KlondikeGame.h */,
+				79D043C92874DCF30095C588 /* HexchequerGame.m */,
+				79D043CA2874DCF30095C588 /* GoGame.m */,
+				79D043CB2874DCF30095C588 /* CheckersGame.h */,
+				79D043CC2874DCF30095C588 /* TicTacToeGame.h */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79D0435D2874DC870095C588 /* GGB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79D043702874DC890095C588 /* Build configuration list for PBXNativeTarget "GGB" */;
+			buildPhases = (
+				79D0435A2874DC870095C588 /* Sources */,
+				79D0435B2874DC870095C588 /* Frameworks */,
+				79D0435C2874DC870095C588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GGB;
+			productName = GGB;
+			productReference = 79D0435E2874DC870095C588 /* GGB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79D0429F2874DB220095C588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					79D0435D2874DC870095C588 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = 79D042A22874DB220095C588 /* Build configuration list for PBXProject "GGB_Mac" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79D0429E2874DB220095C588;
+			productRefGroup = 79D042A82874DB220095C588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79D0435D2874DC870095C588 /* GGB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79D0435C2874DC870095C588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D043EA2874DCF30095C588 /* Gold.png in Resources */,
+				79D043E52874DCF30095C588 /* O.tiff in Resources */,
+				79D043E02874DCF30095C588 /* Red Ball.png in Resources */,
+				79D043D82874DCF30095C588 /* ball-white.png in Resources */,
+				79D043DB2874DCF30095C588 /* Stone-white.png in Resources */,
+				79D043DE2874DCF30095C588 /* Wood.jpg in Resources */,
+				79D043D22874DCF30095C588 /* ball-black.png in Resources */,
+				79D043E32874DCF30095C588 /* Yellow Ball.png in Resources */,
+				79D043D92874DCF30095C588 /* ball-purple.png in Resources */,
+				79D043EB2874DCF30095C588 /* White Ball.png in Resources */,
+				79D043E72874DCF30095C588 /* Violet.png in Resources */,
+				79D043DF2874DCF30095C588 /* X.tiff in Resources */,
+				79D043DC2874DCF30095C588 /* Classic Aqua Blue.jpg in Resources */,
+				79D043D42874DCF30095C588 /* ball-orange.png in Resources */,
+				79D043E22874DCF30095C588 /* Stone-black.psd in Resources */,
+				79D043D72874DCF30095C588 /* ball-red.png in Resources */,
+				79D043D62874DCF30095C588 /* ball-green.png in Resources */,
+				79D043DD2874DCF30095C588 /* Green Ball.png in Resources */,
+				79D043E62874DCF30095C588 /* Blue.png in Resources */,
+				79D043D32874DCF30095C588 /* ball-cyan.png in Resources */,
+				79D043E42874DCF30095C588 /* Stone-black.png in Resources */,
+				79D043E12874DCF30095C588 /* Background.png in Resources */,
+				79D043DA2874DCF30095C588 /* Stone-white.psd in Resources */,
+				79D043E92874DCF30095C588 /* Red.png in Resources */,
+				79D043D52874DCF30095C588 /* ball-gray.png in Resources */,
+				79D0440E2874DF8C0095C588 /* MainMenu.nib in Resources */,
+				79D044092874DF2E0095C588 /* Assets.xcassets in Resources */,
+				79D043E82874DCF30095C588 /* Green.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79D0435A2874DC870095C588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D043F02874DCF30095C588 /* Stack.m in Sources */,
+				79D044012874DCF30095C588 /* TicTacToeGame.m in Sources */,
+				79D043EF2874DCF30095C588 /* HexGrid.m in Sources */,
+				79D044002874DCF30095C588 /* CheckersGame.m in Sources */,
+				79D043FA2874DCF30095C588 /* Bit.m in Sources */,
+				79D043F22874DCF30095C588 /* GGBUtils.m in Sources */,
+				79D044082874DF290095C588 /* ViewController.m in Sources */,
+				79D043FE2874DCF30095C588 /* Player.m in Sources */,
+				79D044022874DCF30095C588 /* HexchequerGame.m in Sources */,
+				79D043F32874DCF30095C588 /* DiscPiece.m in Sources */,
+				79D044062874DEE80095C588 /* BoardView.m in Sources */,
+				79D043F12874DCF30095C588 /* QuartzUtils.m in Sources */,
+				79D043F62874DCF30095C588 /* Turn.m in Sources */,
+				79D043FD2874DCF30095C588 /* Grid.m in Sources */,
+				79D044112874DFD70095C588 /* DemoBoardView.m in Sources */,
+				79D043FF2874DCF30095C588 /* KlondikeGame.m in Sources */,
+				79D043EC2874DCF30095C588 /* Game.m in Sources */,
+				79D0440B2874DF360095C588 /* main.m in Sources */,
+				79D043F72874DCF30095C588 /* Deck.m in Sources */,
+				79D043FC2874DCF30095C588 /* Piece.m in Sources */,
+				79D043F82874DCF30095C588 /* Card.m in Sources */,
+				79D043ED2874DCF30095C588 /* GGBLayer.m in Sources */,
+				79D044072874DF250095C588 /* AppDelegate.m in Sources */,
+				79D043F52874DCF30095C588 /* PlayingCard.m in Sources */,
+				79D043EE2874DCF30095C588 /* Dispenser.m in Sources */,
+				79D043F42874DCF30095C588 /* GGBTextLayer.m in Sources */,
+				79D043F92874DCF30095C588 /* BitHolder.m in Sources */,
+				79D044032874DCF30095C588 /* GoGame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79D0440C2874DF8C0095C588 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79D0440D2874DF8C0095C588 /* Base */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79D042B82874DB240095C588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79D042B92874DB240095C588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79D0436E2874DC890095C588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_ENTITLEMENTS = GGB/GGB.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whackylabs.GGB-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		79D0436F2874DC890095C588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_ENTITLEMENTS = GGB/GGB.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.whackylabs.GGB-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79D042A22874DB220095C588 /* Build configuration list for PBXProject "GGB_Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D042B82874DB240095C588 /* Debug */,
+				79D042B92874DB240095C588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79D043702874DC890095C588 /* Build configuration list for PBXNativeTarget "GGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79D0436E2874DC890095C588 /* Debug */,
+				79D0436F2874DC890095C588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79D0429F2874DB220095C588 /* Project object */;
+}

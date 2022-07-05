@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Read Me.rtf">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:GGB_Mac.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GGB_iOS.xcodeproj">
+   </FileRef>
+</Workspace>

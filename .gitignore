@@ -10,3 +10,4 @@ DerivedData
 
 Podfile.lock
 project.xcworkspace
+.DS_Store
